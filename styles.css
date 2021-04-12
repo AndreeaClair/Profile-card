@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url("CustomFont.eot");
+  src: url("CustomFont.woff") format("woff"),
+    url("CustomFont.otf") format("opentype"),
+    url("CustomFont.svg#filename") format("svg");
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(images/bg-pattern-bottom.svg),
+    url(images/bg-pattern-top.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 200% -50%, -100% 100%;
+
+  font-size: 18px;
+}
+
+.card {
+  position: relative;
+  background-color: white;
+  width: 350px;
+  margin: 100px auto 0;
+  border-radius: 10px;
+}
+
+.card-header {
+  background-image: url(images/bg-pattern-card.svg);
+  height: 150px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-content {
+  text-align: center;
+  font-family: Kumbh Sans;
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+.age {
+  color: hsl(0, 0%, 59%);
+}
+
+.location {
+  color: hsl(0, 0%, 59%);
+  font-size: 14px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  border-top: 1px solid hsl(0, 0%, 80%);
+}
+
+.card-footer div {
+  text-align: center;
+  font-family: Kumbh Sans;
+  padding: 20px 0;
+}
+
+.details {
+  color: hsl(0, 0%, 59%);
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.card-footer p {
+  margin: 8px 0;
+}
+
+.avatar-wrapper {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  margin-top: -53px;
+  margin-left: -53px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+.avatar {
+  border-radius: 50%;
+}
+
+.name {
+  margin-bottom: -2px;
+}
